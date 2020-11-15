@@ -8,7 +8,8 @@
       plugins = [ "git" "rbenv" ];
     };
     shellAliases = {
-      vi = "vim";
+      vi = "nvim";
+      vim = "nvim";
       ssh = "color-ssh";
     };
     profileExtra = ''

@@ -23,12 +23,8 @@
   imports = [
     ./config/git.nix
     ./config/zsh.nix
-  ];
-
-  home.packages = with pkgs; [
-    ack
-    fzf
-    direnv
+    ./config/packages.nix
+    ./SpaceVim.d/space-vim.nix
   ];
 
   home.file.".tmux.conf".source = ./config/tmux.conf;
