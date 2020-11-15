@@ -23,4 +23,6 @@
   imports = [
     ./config/git.nix
   ];
+
+  home.file.".tmux.conf".source = ./config/tmux.conf;
 }
