@@ -10,6 +10,7 @@
     shellAliases = {
       vi = "nvim";
       vim = "nvim";
+      ack = "rg";
     };
     profileExtra = ''
       export NIX_PATH=/home/vagrant/.nix-defexpr/channels/
