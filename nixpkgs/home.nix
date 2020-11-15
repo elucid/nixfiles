@@ -22,12 +22,20 @@
 
   imports = [
     ./config/git.nix
+    ./config/zsh.nix
   ];
 
   home.packages = with pkgs; [
     ack
+    fzf
+    direnv
   ];
 
   home.file.".tmux.conf".source = ./config/tmux.conf;
   home.file.".ackrc".source = ./config/ackrc;
+  home.file."/bin/colorterm.sh".source = ./bin/colorterm.sh;
+
+  programs.zsh = {
+    oh-my-zsh = { theme = "minimal"; };
+  };
 }
