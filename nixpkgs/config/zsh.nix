@@ -8,7 +8,8 @@
       plugins = [ "git" "rbenv" ];
     };
     shellAliases = {
-      vi = "vim";
+      vi = "nvim";
+      vim = "nvim";
     };
     profileExtra = ''
       export NIX_PATH=/home/vagrant/.nix-defexpr/channels/

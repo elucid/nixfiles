@@ -20,7 +20,7 @@
     };
     extraConfig = {
       core = {
-        editor = "vim";
+        editor = "nvim";
         whitespace = "trailing-space,space-before-tab";
       };
       push = { default = "tracking"; };
