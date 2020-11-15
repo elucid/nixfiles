@@ -1,0 +1,6 @@
+--pager=less -RFX
+--ignore-dir=tmp
+--ignore-dir=log
+--ignore-dir=dist
+--ignore-dir=bower_components
+--ignore-dir=node_modules
