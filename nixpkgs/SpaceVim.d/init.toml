@@ -32,7 +32,7 @@
     filetree_direction = "left"
     relativenumber = false
 
-    disabled_plugins = ["vim-surround"]
+    disabled_plugins = []
     enable_ale = true
     enable_neomake = false
     lint_on_the_fly = true
