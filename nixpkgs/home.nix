@@ -31,6 +31,8 @@
   home.file.".ackrc".source = ./config/ackrc;
   home.file."/bin/colorterm.sh".source = ./bin/colorterm.sh;
 
+  programs.autojump.enable = true;
+
   programs.zsh = {
     oh-my-zsh = { theme = "minimal"; };
   };
