@@ -6,6 +6,7 @@
     oh-my-zsh = {
       enable = true;
       plugins = [ "git" "rbenv" ];
+      theme = "minimal";
     };
     shellAliases = {
       vi = "nvim";
