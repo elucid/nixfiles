@@ -13,5 +13,6 @@
     rustup
     fzf
     direnv
+    gitAndTools.hub
   ];
 }
