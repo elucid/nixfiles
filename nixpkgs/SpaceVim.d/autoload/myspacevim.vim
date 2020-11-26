@@ -118,5 +118,6 @@ function! myspacevim#after() abort
   let g:coc_fzf_opts = []
 
   set wrap nolinebreak list
+  set signcolumn=yes
 endfunction
 
