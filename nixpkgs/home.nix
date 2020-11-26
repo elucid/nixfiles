@@ -28,6 +28,7 @@
   ];
 
   home.file.".tmux.conf".source = ./config/tmux.conf;
+  home.file.".tmate.conf".source = ./config/tmate.conf;
   home.file.".ackrc".source = ./config/ackrc;
   home.file."/bin/colorterm.sh".source = ./bin/colorterm.sh;
 
