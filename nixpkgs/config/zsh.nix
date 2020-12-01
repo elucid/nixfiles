@@ -15,6 +15,15 @@
     };
     profileExtra = ''
       export NIX_PATH=/home/vagrant/.nix-defexpr/channels/
+
+      # Predictable SSH authentication socket location.
+      SOCK="/tmp/ssh-agent-$USER-screen"
+      if test $SSH_AUTH_SOCK && [ $SSH_AUTH_SOCK != $SOCK ]
+      then
+        rm -f $SOCK
+        ln -sf $SSH_AUTH_SOCK $SOCK
+        export SSH_AUTH_SOCK=$SOCK
+      fi
     '';
     initExtra = ''
       stty stop undef
