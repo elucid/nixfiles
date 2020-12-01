@@ -117,7 +117,8 @@ function! myspacevim#after() abort
   let g:coc_fzf_preview = ''
   let g:coc_fzf_opts = []
 
-  set wrap nolinebreak list
-  set signcolumn=yes
+  set wrap nolinebreak list " no horizontal scroll
+  set signcolumn=yes " always show the sign column to remove horiz. jank
+  set ignorecase smartcase " case-sensitive search oif contain upper-case
 endfunction
 
