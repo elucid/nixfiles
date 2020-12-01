@@ -31,7 +31,6 @@
       setopt noflowcontrol
 
       export TERM=xterm-256color
-      [ -n "$TMUX" ] && export TERM=screen-256color
       source ${pkgs.fzf}/share/fzf/completion.zsh
       source ${pkgs.fzf}/share/fzf/key-bindings.zsh
 
