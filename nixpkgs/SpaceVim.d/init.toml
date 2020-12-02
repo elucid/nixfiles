@@ -125,3 +125,8 @@ name = "lang#elixir"
    name = "mustache/vim-mustache-handlebars"
    # note: you need to disable merged feature
    merged = false
+
+[[custom_plugins]]
+   name = "tomtom/tcomment_vim"
+   # note: you need to disable merged feature
+   merged = false
