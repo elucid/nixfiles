@@ -10,6 +10,6 @@
   "solargraph.hover": true,
   "solargraph.useBundler": true,
   "tabnine.binary_path": "/home/ghedamat/bin/TabNine",
-  "coc.preferences.formatOnSaveFiletypes": ["elixir", "ruby", "typescript"],
-  "eslint.autoFixOnSave": true
+  "coc.preferences.formatOnSaveFiletypes": [],
+  "eslint.autoFixOnSave": false
 }
