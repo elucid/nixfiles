@@ -60,6 +60,21 @@
       export LOCALE_ARCHIVE="/usr/bin/locale"
 
       export FZF_DEFAULT_COMMAND='fd --type f --exclude .git'
+
+      rprompt_nix() {
+        if [[ -n $IN_NIX_SHELL ]]
+        then
+          echo -n "(nix)";
+        else
+          echo -n "";
+        fi
+      }
+
+      build_rprompt() {
+        rprompt_nix
+      }
+
+      RPROMPT='$(build_rprompt)'
     '';
   };
 }
