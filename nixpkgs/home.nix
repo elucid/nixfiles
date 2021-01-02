@@ -31,6 +31,7 @@
   home.file.".tmate.conf".source = ./config/tmate.conf;
   home.file.".ackrc".source = ./config/ackrc;
   home.file."/bin/colorterm.sh".source = ./bin/colorterm.sh;
+  home.file.".psqlrc".source = ./config/psqlrc;
 
   programs.autojump.enable = true;
 
