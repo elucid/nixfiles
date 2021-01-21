@@ -16,6 +16,8 @@
     profileExtra = ''
       export NIX_PATH=/home/vagrant/.nix-defexpr/channels/
 
+      export EDITOR=vim
+
       # Predictable SSH authentication socket location.
       SOCK="/tmp/ssh-agent-$USER-screen"
       if test $SSH_AUTH_SOCK && [ $SSH_AUTH_SOCK != $SOCK ]
